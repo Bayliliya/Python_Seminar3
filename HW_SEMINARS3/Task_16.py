@@ -5,13 +5,13 @@
 # В последующих  строках записаны N целых чисел Ai.
 # Последняя строка содержит число X
 
-from random import randrange
+from random import randint
 
 N = int(input("Введите N: "))
 X = 4
 array = []
 for i in range(N):
-    array.append(randrange(2, 5))
+    array.append(randint(2, 5))
 print(array)
 
 COUNT = 0
