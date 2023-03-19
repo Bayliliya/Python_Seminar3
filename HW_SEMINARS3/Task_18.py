@@ -17,6 +17,6 @@ MIN = float("inf")
 MIN_VALUE = 0
 for i in array:
     if abs(X - i) <= MIN:
-        MIN = abs(X-i)
+        MIN = abs(X - i)
         MIN_VALUE = i
 print(MIN_VALUE)
